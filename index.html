@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Hotel - Hotel XYZ</title>
+    <!-- Inclua o link para o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Inclua seu arquivo CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho da página com espaçamento maior -->
+<header class="my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Logotipo do Hotel -->
+                <img src="images/logo.png" alt="Logo do Hotel XYZ">
+            </div>
+            <div class="col-md-9">
+                <!-- Título do Hotel -->
+                <h1>Hotel XYZ</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+ <!-- Seção de Destaque em um Card -->
+<section id="destaque">
+    <div class="container">
+        <div class="row">
+            <!-- Coluna para o Card de Destaque -->
+            <div class="col-md-6">
+                <div class="card">
+                    <!-- Conteúdo do Card -->
+                    <div class="card-body">
+                        <h2 class="card-title">Sinta o conforto acolhedor de nossas hospedagens</h2>
+                        <p class="card-text">Hospede-se nos nossos hotéis com quartos a partir de R$100,00.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Coluna para o Carrossel de Fotos (reduzido) -->
+            <div class="col-md-4">
+                <div id="foto-carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicadores do Carrossel -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#foto-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#foto-carousel" data-slide-to="1"></li>
+                        <li data-target="#foto-carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Slides do Carrossel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!-- Substitua "imagem1.jpg" e "Descrição da imagem 1" com seus próprios recursos -->
+                            <img src="images/hotel2.png" alt="Descrição da imagem 1" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <!-- Substitua "imagem2.jpg" e "Descrição da imagem 2" com seus próprios recursos -->
+                            <img src="images/hotel1.webp" alt="Descrição da imagem 2" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <!-- Substitua "imagem3.jpg" e "Descrição da imagem 3" com seus próprios recursos -->
+                            <img src="images/hotel3.jpg" alt="Descrição da imagem 3" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controles do Carrossel -->
+                    <a class="carousel-control-prev" href="#foto-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#foto-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Seção de Serviços -->
+    <section id="servicos">
+        <div class="container">
+            <!-- Título da seção -->
+            <h3>Por que se hospedar em nossos hotéis?</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Caixa para "Suite Solteiro" -->
+                    <div class="servico">
+                        <!-- Imagem do serviço -->
+                        <img src="suite-solteiro.jpg" alt="Suite Solteiro">
+                        <!-- Título e descrição do serviço -->
+                        <h4>Suite Solteiro</h4>
+                        <p>Quarto confortável para uma pessoa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Caixa para "Suite Casal" -->
+                    <div class="servico">
+                        <!-- Imagem do serviço -->
+                        <img src="suite-casal.jpg" alt="Suite Casal">
+                        <!-- Título e descrição do serviço -->
+                        <h4>Suite Casal</h4>
+                        <p>Quarto espaçoso para casais.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Caixa para "Suite Master" -->
+                    <div class="servico">
+                        <!-- Imagem do serviço -->
+                        <img src="suite-master.jpg" alt="Suite Master">
+                        <!-- Título e descrição do serviço -->
+                        <h4>Suite Master</h4>
+                        <p>Acomodação de luxo com vista panorâmica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Seção de Reserva em um único Card -->
+<section id="reserva">
+    <div class="container">
+        <div class="row">
+            <!-- Coluna para o Card de Reserva -->
+            <div class="col-md-12">
+                <div class="card">
+                    <!-- Conteúdo do Card -->
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Coluna para a Descrição e Carrossel de Fotos -->
+                            <div class="col-md-6">
+                                <!-- Descrição -->
+                                <h3 class="card-title">Faça sua reserva</h3>
+                                <p class="card-text">Entre em contato conosco informando as datas desejadas. Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva.</p>
+                                <!-- Carrossel de Fotos -->
+                                <div id="foto-carousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicadores do Carrossel -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#foto-carousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#foto-carousel" data-slide-to="1"></li>
+                                        <li data-target="#foto-carousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Slides do Carrossel -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <!-- Substitua "imagem1.jpg" e "Descrição da imagem 1" com seus próprios recursos -->
+                                            <img src="images/hotel1.webp" alt="Descrição da imagem 1" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <!-- Substitua "imagem2.jpg" e "Descrição da imagem 2" com seus próprios recursos -->
+                                            <img src="images/hotel2.png" alt="Descrição da imagem 2" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <!-- Substitua "imagem3.jpg" e "Descrição da imagem 3" com seus próprios recursos -->
+                                            <img src="images/hotel3.jpg" alt="Descrição da imagem 3" class="d-block w-100">
+                                        </div>
+                                    </div>
+                                    <!-- Controles do Carrossel -->
+                                    <a class="carousel-control-prev" href="#foto-carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#foto-carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Próximo</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Coluna para o Formulário de Reserva -->
+                            <div class="col-md-6">
+                                <!-- Formulário de reserva -->
+                                <form>
+                                    <!-- Campos do formulário aqui -->
+                                    <div class="form-group">
+                                        <label for="nome">Nome</label>
+                                        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Seu email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="data-entrada">Data de Entrada</label>
+                                        <input type="date" class="form-control" id="data-entrada">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="data-saida">Data de Saída</label>
+                                        <input type="date" class="form-control" id="data-saida">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="observacoes">Observações</label>
+                                        <textarea class="form-control" id="observacoes" rows="4" placeholder="Observações adicionais"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="adultos">Adultos</label>
+                                        <input type="number" class="form-control" id="adultos" min="1" value="1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="criancas">Crianças</label>
+                                        <input type="number" class="form-control" id="criancas" min="0" value="0">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Inclua o link para o Bootstrap JavaScript e jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Inclua seu arquivo JavaScript personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
