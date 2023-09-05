@@ -1,0 +1,115 @@
+/* Defina uma fonte padrão e uma altura mínima para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Estilize a seção de destaque */
+#destaque {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+/* Estilize a seção de serviços */
+#servicos {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.servico {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servico img {
+    max-width: 100%;
+    height: auto;
+}
+
+.servico h4 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #333;
+}
+
+.servico p {
+    color: #666;
+}
+
+/* Estilize a seção de reserva */
+#reserva {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.form-group label {
+    color: #333;
+}
+
+/* Estilize os botões de envio */
+.btn-primary {
+    background-color: #333;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+/* Espaçamento entre seções */
+.mt-5 {
+    margin-top: 5rem;
+}
